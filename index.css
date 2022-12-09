@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+.clear{clear: both;}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    width: 100%;
+    margin: auto;
+}
+#header{
+    height: 46px;
+    background-color: black; 
+    color: aliceblue;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    
+}
+        #danhsach {
+            display: inline-block;
+        }
+        .danhdanh-item{
+            display:  inline-block;    
+            font-size: 25px;
+            line-height: 46px;
+            padding: 0 24px;
+            position: relative;   
+        }
+        .danhdanh-item>a{
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        #danhsach .danhdanh-item:hover {
+            background-color: #fff;  
+        }
+        #danhsach .danhdanh-item a:hover {
+            color: #000;
+        }
+        .More {
+            min-width: 160px;
+        position: absolute;
+        background-color: aliceblue;
+        list-style-type: none;
+        color: black;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        
+        }
+        #danhsach .danhdanh-item a{ 
+            color: aliceblue;
+            
+        }
+        #danhsach .danhdanh-item .More li a {
+            width: 100%;
+            list-style: none;
+            background-color: #fff;
+            color: black;
+            display: none;
+               
+        }
+        #danhsach .danhdanh-item:hover .More a{
+            display: block;
+            text-decoration: none;
+        }
+        #danhsach .danhdanh-item .More :hover a{
+            color: white;
+            background-color: #333;
+        }
+        .muiten {
+            font-size: 12px;
+        }
+        .timkiem{
+            float: right;  
+            line-height: 46px;
+            padding:0 18px; 
+        }
+        .timkiem:hover{
+            background-color: red;
+            cursor: pointer;
+        }
+      
+#slider{
+        margin-top: 46px;
+        padding-top:  50%;
+        background : url(https://gstatic.gvn360.com/2021/07/Noi-buon-khong-ten_-4-scaled.jpg) no-repeat top center ;
+        background-size: 100% ;
+        position: relative;
+        }
+        .text{
+            position: absolute;
+            bottom: 10%;
+            text-align: center;
+            color: burlywood;
+            font-family: initial;
+            left: 50%;
+            transform: translate(-50%);
+        }
+        .text1{
+            padding-bottom: 10px;
+            letter-spacing: 4px;
+            font-weight: 500;
+        }
+        .text2{
+            padding-top: 10px;
+            letter-spacing: 4px;
+            font-weight: 500;
+            opacity: 0.8 ;
+            font-style: italic;
+            line-height: 0;
+        }
+        .under .uleft{
+            background-color: rgba(0,0,0,.4);
+            color: #fff;
+            width: 15%;
+            height: 100%;
+            padding: 50px ;
+            z-index: 2;
+            min-width: 450px;
+            overflow: auto;
+            box-sizing: border-box;
+            font-size: larger;
+            opacity: 0.6;     
+                position: absolute;
+                line-height: 60px;
+                border-radius: 0 10% 10% 0 ;
+                left: 0;
+                top: 0;
+            display: none;    
+        }
+        .uleft_xem{
+            background-color: salmon;
+            color: #000;
+            opacity: 1;
+        }
+        .under .uright {
+                background-color: rgba(0,0,0,0.4);
+                color: #fff;
+                width: 15%;
+                height: 100%;
+                padding: 50px ;
+                z-index: 2;
+                min-width: 450px;
+                overflow: auto;
+                box-sizing: border-box;
+                font-size: larger;
+                opacity: 0.6;    
+                position: absolute;
+                top: 0;
+                right: 0;
+                border-radius: 10% 0 0 10%;
+                line-height: 35px;
+                display: none;
+        }
+        #slider:hover .uright{
+            display: block;
+        }
+        #slider:hover .uleft{
+            display: block;
+        }
+ #contain{
+        }
+        .text-contain{
+            width: 800px;
+            padding: 64px 0;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+        
+        }
+        .tieude,.phuluc {
+            text-align: center;
+            position: relative;
+            right: 0;
+            left: 0 ;
+            font-weight: 500;
+        }
+        .tieude{
+            font-size: 30px;
+            letter-spacing: 4px;    
+            margin-top:  25px;
+        }
+        .phuluc{
+            font-size: 15px;
+            margin : 25px 0 ;
+            font-style: italic;
+            opacity: 0.6;    
+        }
+        .doanvan{
+            text-align: justify;
+            margin-top: 25px;
+            line-height: 2;
+            background-color: #fff;
+        }
+        .img-Them{
+                margin-top: 50px;
+                text-align: center;
+        }
+        .Lophoc{
+            float: left;
+            width: 30%;
+            margin: auto 1.6666667%;
+        }
+        .Lophoc p{
+            font-size: 15px;
+        }
+        .Lophoc img{
+            height: 270px;
+            width: 190  px;
+            border-radius: 20px;    
+        }
+        .link{font-size: larger;}
+        .listAnime{
+            background-color: antiquewhite;
+            color: chocolate;
+            }
+        .dong1{
+            font-size: 30px;
+            padding: 20px 16px;
+            border-bottom: 12px solid antiquewhite;
+        }
+
+        .hoanthanh{
+            float: right;
+            color: darkslategrey;
+            font-size: 20px;
+            background: darkseagreen;
+            left: 0%;
+            border-radius: 10%;
+            padding: 8px 5px;
+        }
+        .chuahoanthanh{
+            position: relative;
+            color: #000;
+            font-size: 25px;
+            background: orange;
+            float: right;
+            border-radius: 50%;
+            padding: 0 5px;
+            margin-top: 7px;
+        }
+        .list-anime{
+            margin:30px ;
+            box-sizing: border-box;
+            padding: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between  ;
+            }
+        .Anime{    
+            width: 24%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            height: auto;
+            border-radius: 20px;
+            position: relative;
+            margin: 0 2px;
+        }
+        .Anime:hover { 
+            opacity: 0.8;
+        }
+        .anhmang{
+            width: 100%;    
+            padding: 5%;
+            box-sizing: border-box;
+            display: block;
+        }
+        .thongtin{
+            width: 100%;
+            text-align: left;
+            padding: 25px ;
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        .luotxem{padding-bottom: 20px;}
+        .list-anime .xem{
+            text-decoration: none;
+            background-color:  darkgray;
+            font-size: medium  ;
+            text-decoration: none;
+            padding: 10px 10px;
+            bottom: 10px;
+            left: 10px;
+            border-radius: 5px;
+            position: absolute;
+            margin-left: 5px;
+            width: 90%;
+            text-align: center;
+        }
+        .xem:hover{
+            opacity: 0.5;
+        }
+        .time1{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+        .xemthem{
+            width: 100%;
+            height: 50px;
+            background-color: coral;
+            display: block;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 20px;
+            position: relative;
+            line-height: 50px;
+        }
+        .xemthem>a{ text-decoration: none;}
+        .xemthem:hover{opacity: 0.6;}
+        .Khung{
+            width: 800px;
+            padding: 64px 0;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .ii{
+            padding: 5px 0;
+        }
+        .Khung{
+            display: flex;
+            justify-content: space-between;
+        }
+        .tt-up{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+        .inp{
+            width: 100%;
+            padding: 10px;
+            border: #ccc 1px solid;   
+            margin: 5px;
+            
+        }
+        .inp>li {padding: 15px 20px;font-size: 20px;}
+        #buton{
+            padding: 5px;
+            margin: 5px;
+            background:#ccc; 
+            border-radius: 5px;
+            border-color: #ccc;
+            font-weight: 700;
+            width: 50px;
+            float: right;
+        }
+        #buton:hover{
+            cursor: pointer;
+            opacity: 0.2;
+        }
+        .img1{width: 100%;;}
+#footer{
+        padding: 64px 16px;
+}
+
+.icon-footer{
+    text-align: center;
+    font-size: 24px;
+}
+.icon-footer a{
+    text-decoration: none;
+    padding: 5px;
+}
+.icon-footer a:hover {
+    opacity: 0.6;
+}
+
+
+

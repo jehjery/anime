@@ -1,0 +1,15 @@
+
+@media (max-width:1024px) {
+    .Anime{width: 49%;}
+    .dong1{font-size: 15px;
+            padding: 7px 20px 16px 16px;}
+    .kinhlup{display: none;}
+    .icon-footer{
+        font-size: 70px !important;
+        padding: 10px;
+    }
+    .inp{padding: 15px 20px; }
+    .icon li {padding: 12px 0;}
+    .icon {font-size: 20px;}
+    .khung{display: block;}
+}
